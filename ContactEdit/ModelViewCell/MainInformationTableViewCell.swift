@@ -9,8 +9,13 @@ import UIKit
 
 class MainInformationTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var firstNameTextField: UITextField!
+    @IBOutlet weak var lastNameTextField: UITextField!
+    
+
     override func awakeFromNib() {
         super.awakeFromNib()
+
         // Initialization code
     }
 
@@ -19,5 +24,8 @@ class MainInformationTableViewCell: UITableViewCell {
 
         // Configure the view for the selected state
     }
+    
 
+
+    
 }

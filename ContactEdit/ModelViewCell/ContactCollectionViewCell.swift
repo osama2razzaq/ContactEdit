@@ -8,5 +8,8 @@
 import UIKit
 
 class ContactCollectionViewCell: UICollectionViewCell {
+    @IBOutlet weak var roundView: UIView!
+    @IBOutlet weak var nameLabel: UILabel!
+    
     
 }

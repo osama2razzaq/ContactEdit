@@ -7,7 +7,9 @@
 
 import UIKit
 
-class topTableViewCell: UITableViewCell {
+class TopTableViewCell: UITableViewCell {
+    
+    @IBOutlet weak var roundView: UIView!
 
     override func awakeFromNib() {
         super.awakeFromNib()

@@ -8,9 +8,11 @@
 import UIKit
 
 class SubInformationTableViewCell: UITableViewCell {
-
+    @IBOutlet weak var emailTextfield: UITextField!
+    @IBOutlet weak var dobTextfield: UITextField!
     override func awakeFromNib() {
         super.awakeFromNib()
+        
         // Initialization code
     }
 
